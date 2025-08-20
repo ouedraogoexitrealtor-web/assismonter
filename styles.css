@@ -241,6 +241,32 @@ p {
     color: #4CAF50;
 }
 
+.hero-story {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    backdrop-filter: blur(10px);
+}
+
+.hero-story p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.hero-story i {
+    color: #ff6b6b;
+    margin-right: 0.5rem;
+}
+
+.hero-story strong {
+    color: white;
+    font-weight: 600;
+}
+
 .hero-image {
     display: flex;
     justify-content: center;
@@ -420,6 +446,21 @@ section {
     font-size: 0.8rem;
     font-weight: 500;
     border: 1px solid rgba(79, 70, 229, 0.2);
+}
+
+.real-example {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border-left: 4px solid var(--primary-color);
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 0 8px 8px 0;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.real-example strong {
+    color: var(--primary-color);
+    font-weight: 600;
 }
 
 /* How It Works Section */
