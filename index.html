@@ -3,23 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <title>AssisMonter - Ride Assist Service | Companionship & Independence</title>
-                <meta name="description" content="Professional ride assist service providing companionship and independence for elderly, injured, autistic individuals and more. Our drivers are your friends, not just transportation.">
-                <meta name="keywords" content="ride assist service, companionship, elderly assistance, injury support, autistic friendly, independence services, driver jobs, professional assistance">
-                
-                <!-- Open Graph / Facebook -->
-                <meta property="og:type" content="website">
-                <meta property="og:url" content="https://assismonter.com/">
-                <meta property="og:title" content="AssisMonter - Ride Assist Service | Companionship & Independence">
-                <meta property="og:description" content="Professional ride assist service providing companionship and independence for elderly, injured, autistic individuals and more. Our drivers are your friends, not just transportation.">
-                <meta property="og:image" content="https://assismonter.com/images/hero-image.jpg">
+    <title>AssisMonter - Ride Assist Service | Companionship & Independence</title>
+    <meta name="description" content="Professional ride assist service providing companionship and independence for elderly, injured, autistic individuals and more. Our drivers are your friends, not just transportation.">
+    <meta name="keywords" content="ride assist service, companionship, elderly assistance, injury support, autistic friendly, independence services, driver jobs, professional assistance">
+    
+    <!-- Security Headers -->
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    
+    <!-- Force HTTPS -->
+    <script>
+        if (location.protocol !== 'https:' && location.hostname !== 'localhost') {
+            location.replace(`https:${location.href.substring(location.protocol.length)}`);
+        }
+    </script>
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://assismonter.com/">
+    <meta property="og:title" content="AssisMonter - Ride Assist Service | Companionship & Independence">
+    <meta property="og:description" content="Professional ride assist service providing companionship and independence for elderly, injured, autistic individuals and more. Our drivers are your friends, not just transportation.">
+    <meta property="og:image" content="https://assismonter.com/images/hero-image.jpg">
 
-                <!-- Twitter -->
-                <meta property="twitter:card" content="summary_large_image">
-                <meta property="twitter:url" content="https://assismonter.com/">
-                <meta property="twitter:title" content="AssisMonter - Ride Assist Service | Companionship & Independence">
-                <meta property="twitter:description" content="Professional ride assist service providing companionship and independence for elderly, injured, autistic individuals and more. Our drivers are your friends, not just transportation.">
-                <meta property="twitter:image" content="https://assismonter.com/images/hero-image.jpg">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://assismonter.com/">
+    <meta property="twitter:title" content="AssisMonter - Ride Assist Service | Companionship & Independence">
+    <meta property="twitter:description" content="Professional ride assist service providing companionship and independence for elderly, injured, autistic individuals and more. Our drivers are your friends, not just transportation.">
+    <meta property="twitter:image" content="https://assismonter.com/images/hero-image.jpg">
 
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -37,6 +51,7 @@
                 <a href="#how-it-works" class="nav-link">How It Works</a>
                 <a href="#drivers" class="nav-link">Become a Driver</a>
                 <a href="#target-audience" class="nav-link">Who We Help</a>
+                <a href="#security" class="nav-link">Security</a>
                 <a href="#contact" class="nav-link">Contact</a>
                 <a href="#download" class="nav-link nav-cta">Download App</a>
             </div>
@@ -67,6 +82,10 @@
                 </div>
                 <div class="hero-disclaimer">
                     <p><i class="fas fa-info-circle"></i> <strong>Important:</strong> We are NOT medical transportation or mobility assistance. Our drivers provide companionship and ride assistance for independent individuals.</p>
+                </div>
+                <div class="security-badge">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Secure & Trusted Service</span>
                 </div>
             </div>
             <div class="hero-image">
@@ -379,7 +398,7 @@
                         <span><i class="fas fa-check"></i> No app store needed</span>
                         <span><i class="fas fa-check"></i> Instant access</span>
                     </div>
-                    <a href="https://ouedraogoexitrealtor-web.github.io/assismonter/" target="_blank" class="btn btn-primary">
+                    <a href="web-app/app-landing.html" target="_blank" class="btn btn-primary">
                         <i class="fas fa-external-link-alt"></i> Try Web App
                     </a>
                 </div>
@@ -422,6 +441,48 @@
                 <div class="download-actions">
                     <a href="#drivers" class="btn btn-secondary">Become a Driver</a>
                     <a href="#contact" class="btn btn-outline">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Security & Trust Section -->
+    <section id="security" class="security">
+        <div class="container">
+            <h2 class="section-title">Security & Trust</h2>
+            <p class="section-subtitle">Your safety and privacy are our top priorities</p>
+            
+            <div class="security-grid">
+                <div class="security-card">
+                    <div class="security-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>HTTPS Secure</h3>
+                    <p>All data is encrypted using industry-standard SSL/TLS encryption. Your information is protected during transmission.</p>
+                </div>
+                
+                <div class="security-card">
+                    <div class="security-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3>Privacy Protected</h3>
+                    <p>We never share your personal information with third parties. Your data stays private and secure.</p>
+                </div>
+                
+                <div class="security-card">
+                    <div class="security-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Verified Service</h3>
+                    <p>All our drivers are thoroughly vetted with background checks, insurance, and valid licenses.</p>
+                </div>
+                
+                <div class="security-card">
+                    <div class="security-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Secure Payments</h3>
+                    <p>All financial transactions are processed through secure, encrypted payment gateways.</p>
                 </div>
             </div>
         </div>
@@ -515,6 +576,7 @@
                         <li><a href="#how-it-works">How It Works</a></li>
                         <li><a href="#drivers">Become a Driver</a></li>
                         <li><a href="#target-audience">Who We Help</a></li>
+                        <li><a href="#security">Security</a></li>
                         <li><a href="#contact">Contact Us</a></li>
                         <li><a href="#download">Download App</a></li>
                     </ul>
