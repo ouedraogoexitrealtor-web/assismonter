@@ -162,7 +162,7 @@ p {
 
 /* Hero Section */
 .hero {
-    padding: 120px 0 80px;
+    padding: 160px 0 80px;
     background: linear-gradient(135deg, var(--bg-light) 0%, var(--bg-white) 100%);
 }
 
@@ -859,9 +859,8 @@ section {
     background: linear-gradient(135deg, #4CAF50, #45a049);
     color: white;
     padding: 1rem 0;
-    position: sticky;
-    top: 0;
-    z-index: 1001;
+    position: relative;
+    z-index: 100;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
