@@ -39,12 +39,30 @@ A professional, modern website for AssisMonter - Professional Ride Assist Servic
 ## 📁 **File Structure**
 
 ```
-website/
-├── index.html          # Main HTML file
-├── styles.css          # All CSS styling
-├── script.js           # Interactive JavaScript
-└── README.md           # This file
+assismonter/
+├── index.html              # Main HTML file
+├── styles.css              # All CSS styling
+├── script.js               # Interactive JavaScript
+├── README.md               # This file
+├── SETUP.md                # Security setup guide
+├── .gitignore              # Protects sensitive files
+└── web-app/                # Flutter web app
+    ├── assets/
+    │   └── assets/
+    │       └── service-account-template.json  # Template for Firebase config
+    └── index.html          # Web app entry point
 ```
+
+## 🔒 **Security & Privacy**
+
+This repository is **publicly accessible** and **production-ready** with:
+- ✅ **No hardcoded credentials** or API keys
+- ✅ **Template files** for secure configuration
+- ✅ **Comprehensive .gitignore** protection
+- ✅ **Environment variable support**
+- ✅ **Secure deployment** instructions
+
+**See [SETUP.md](SETUP.md) for complete security setup guide.**
 
 ## 🌐 **How to Transfer to Wix**
 
