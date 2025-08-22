@@ -7,12 +7,13 @@
 **/firebase-config.json
 
 # API Keys and Secrets
-**/config.js
 **/secrets.js
 **/env.js
 **/.env
 **/.env.local
 **/.env.production
+**/config.local.js
+**/config.production.js
 
 # Build and generated files
 **/build/

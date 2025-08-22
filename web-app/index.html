@@ -37,8 +37,33 @@
       <title>AssisMonter</title>
   <link rel="manifest" href="manifest.json">
   
-  <!-- Google Maps API -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=PLACEHOLDER_KEY_FOR_TESTING&libraries=places"></script>
+  <!-- Configuration -->
+  <script src="config.js"></script>
+  
+  <!-- Google Maps API - Loaded dynamically -->
+  <script>
+    // Load Google Maps API with key from configuration
+    function loadGoogleMaps() {
+      const apiKey = window.AssisMonterConfig.googleMapsApiKey;
+      if (apiKey && apiKey !== 'YOUR_API_KEY_HERE') {
+        const script = document.createElement('script');
+        script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&libraries=places`;
+        script.async = true;
+        script.defer = true;
+        document.head.appendChild(script);
+        console.log('🗺️ Google Maps API loaded with configured key');
+      } else {
+        console.warn('⚠️ Google Maps API key not configured. Maps functionality will be limited.');
+      }
+    }
+    
+    // Load maps when configuration is ready
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', loadGoogleMaps);
+    } else {
+      loadGoogleMaps();
+    }
+  </script>
   
   <!-- iOS Safari specific styles -->
   <style>
