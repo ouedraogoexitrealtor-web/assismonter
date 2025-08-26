@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AssisMonter - Ride Assist Service | Companionship & Independence</title>
+    <meta name="description" content="Professional ride assist service providing companionship and independence for elderly, injured, autistic individuals and more. Our drivers are your friends, not just transportation.">
+    <meta name="keywords" content="ride assist service, companionship, elderly assistance, injury support, autistic friendly, independence services, driver jobs, professional assistance">
+    
+    <!-- Security Headers -->
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    
+    <!-- Force HTTPS -->
+    <script>
+        if (location.protocol !== 'https:' && location.hostname !== 'localhost') {
+            location.replace(`https:${location.href.substring(location.protocol.length)}`);
+        }
+    </script>
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://assismonter.com/">
+    <meta property="og:title" content="AssisMonter - Ride Assist Service | Companionship & Independence">
+    <meta property="og:description" content="Professional ride assist service providing companionship and independence for elderly, injured, autistic individuals and more. Our drivers are your friends, not just transportation.">
+    <meta property="og:image" content="https://assismonter.com/images/hero-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://assismonter.com/">
+    <meta property="twitter:title" content="AssisMonter - Ride Assist Service | Companionship & Independence">
+    <meta property="twitter:description" content="Professional ride assist service providing companionship and independence for elderly, injured, autistic individuals and more. Our drivers are your friends, not just transportation.">
+    <meta property="twitter:image" content="https://assismonter.com/images/hero-image.jpg">
+
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 100% Satisfaction Guarantee Banner -->
+    <div class="guarantee-banner">
+        <div class="container">
+            <div class="guarantee-content">
+                <i class="fas fa-shield-check"></i>
+                <div class="guarantee-text">
+                    <strong>Customer Satisfaction Policy!</strong>
+                    <span>Not satisfied with your ride assist? Claim your refund within 24 hours after the ride. We refund you within 7 business days if service is unsatisfactory.</span>
+                </div>
+                <a href="#guarantee" class="guarantee-link">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>AssisMonter</h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#how-it-works" class="nav-link">How It Works</a>
+                <a href="#drivers" class="nav-link">Become a Driver</a>
+                <a href="#target-audience" class="nav-link">Who We Help</a>
+                <a href="#guarantee" class="nav-link">Policy</a>
+                <a href="#security" class="nav-link">Security</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#download" class="nav-link nav-cta">Download App</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-title-main">Ride Assist Service</span>
+                    <span class="hero-title-sub">Companionship & Independence</span>
+                </h1>
+                <p class="hero-description">
+                    We're not just transportation - we're your companion, your friend, your support system. 
+                    Our ride assist service helps independent individuals who need reliable transportation 
+                    and genuine companionship during their daily activities and journeys.
+                </p>
+                <div class="hero-mission">
+                    <p><strong>Our Mission:</strong> We prioritize care over speed. Your satisfaction and comfort are our primary goals. Every ride is about building relationships, not just getting from point A to point B.</p>
+                </div>
+                <div class="hero-story">
+                    <p><strong>Meet Marie:</strong> At 84, she loves shopping and cooking but can't drive anymore. Her kids live out of town, and while delivery services bring groceries, they leave her isolated at home. AssisMonter drivers become her shopping companions, taking her to multiple stores, helping with light assistance, and maintaining her independence and dignity.</p>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#download" class="btn btn-primary">Download App</a>
+                    <a href="#drivers" class="btn btn-secondary">Become a Driver</a>
+                </div>
+                <div class="hero-disclaimer">
+                    <p><i class="fas fa-info-circle"></i> <strong>Important:</strong> We are NOT medical transportation or mobility assistance. Our drivers provide companionship and ride assistance for independent individuals.</p>
+                </div>
+                <div class="security-badge">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Secure & Trusted Service</span>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-placeholder">
+                    <p>Companionship & Independence</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Target Audience Section -->
+    <section id="target-audience" class="target-audience">
+        <div class="container">
+            <h2 class="section-title">Who We Help</h2>
+            <p class="section-subtitle">Our services are designed to keep you moving and independent</p>
+            <div class="audience-grid">
+                <div class="audience-card">
+                    <div class="audience-icon">
+                        <i class="fas fa-user-clock"></i>
+                    </div>
+                    <h3>Elderly Individuals</h3>
+                    <p>Maintain independence and social connections. Our drivers provide companionship during shopping trips, doctor visits, and social outings.</p>
+                    <div class="example">
+                        <strong>Real Story:</strong> Marie, 84, loves shopping and cooking but can't drive anymore. Her kids live out of town, and while delivery services bring groceries, they leave her isolated at home. AssisMonter drivers become her shopping companions, taking her to multiple stores, helping with light assistance, and maintaining her independence and dignity.
+                    </div>
+                </div>
+                <div class="audience-card">
+                    <div class="audience-icon">
+                        <i class="fas fa-user-injured"></i>
+                    </div>
+                    <h3>Injured & Recovering</h3>
+                    <p>Get around safely while healing. Our drivers provide companionship and transportation for appointments, errands, and daily activities during recovery.</p>
+                    <div class="example">
+                        <strong>Real Story:</strong> Sarah, 45, broke her ankle in a hiking accident. While she can move around her home, driving is impossible during recovery. Her husband works long hours, and she needs to attend physical therapy three times a week. AssisMonter drivers become her reliable companions, ensuring she never misses appointments and providing emotional support during her challenging recovery journey.
+                    </div>
+                </div>
+                <div class="audience-card">
+                    <div class="audience-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Autistic & Neurodivergent</h3>
+                    <p>Comfortable, understanding companionship. Our drivers provide patient, supportive ride assistance for various needs and preferences.</p>
+                    <div class="example">
+                        <strong>Real Story:</strong> Alex, 22, is autistic and finds public transportation overwhelming. He loves visiting his favorite bookstore and coffee shop but gets anxious about crowded buses and unpredictable schedules. AssisMonter drivers understand his needs, provide quiet, comfortable rides, and become familiar faces that make his weekly outings enjoyable and stress-free.
+                    </div>
+                </div>
+                <div class="audience-card">
+                    <div class="audience-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Independent Individuals</h3>
+                    <p>Those who can move independently but need reliable transportation and companionship. Our drivers provide friendly company and reliable ride assistance.</p>
+                    <div class="example">
+                        <strong>Real Story:</strong> James, 68, is fully independent but recently moved to a new city after retirement. He doesn't know many people and misses the social connections he had back home. AssisMonter drivers become his local friends, taking him to explore new restaurants, helping him discover the city, and providing the companionship he needs while building his new life in an unfamiliar place.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Ride Assist Services</h2>
+            <p class="section-subtitle">Companionship and ride assistance for everyday activities</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>Shopping Companionship</h3>
+                    <p>Get help with grocery shopping, retail purchases, and personal shopping needs. Our drivers provide companionship and can assist with carrying bags to and from the vehicle.</p>
+                    <div class="service-features">
+                        <span class="feature-tag">Bag Assistance</span>
+                        <span class="feature-tag">Shopping Support</span>
+                        <span class="feature-tag">Companionship</span>
+                    </div>
+                    <div class="real-example">
+                        <strong>Real Scenario:</strong> Maria loves browsing the latest fashion at Target, but her arthritis makes carrying multiple bags difficult. Her AssisMonter driver helps her navigate the store, carries her selections, and even suggests alternative stores when items are out of stock - making her shopping experience enjoyable and stress-free.
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h3>Appointment Companionship</h3>
+                    <p>Reliable companionship for medical, business, and personal appointments. Our drivers wait with you and provide transportation support throughout your journey.</p>
+                    <div class="service-features">
+                        <span class="feature-tag">Wait & Support</span>
+                        <span class="feature-tag">Appointment Assistance</span>
+                        <span class="feature-tag">Reliable Service</span>
+                    </div>
+                    <div class="real-example">
+                        <strong>Real Scenario:</strong> Robert, 72, has a series of medical appointments that require him to be at the hospital for 4-6 hours. His family can't take time off work, and he doesn't want to burden them. His AssisMonter driver stays with him throughout the day, provides companionship during long waits, and ensures he gets home safely after exhausting medical procedures.
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <h3>Airport Companionship</h3>
+                    <p>Professional airport pickup and drop-off with companionship. Flight tracking, waiting, and assistance with luggage to and from the vehicle. Note: Drivers cannot accompany passengers through TSA security checkpoints.</p>
+                    <div class="service-features">
+                        <span class="feature-tag">Flight Tracking</span>
+                        <span class="feature-tag">Luggage Help</span>
+                        <span class="feature-tag">Pre-Security Support</span>
+                    </div>
+                    <div class="real-example">
+                        <strong>Real Scenario:</strong> Linda, 58, travels frequently for business but has anxiety about airport logistics and long waits. Her AssisMonter driver meets her at home, helps with luggage, tracks her flight in real-time, and provides calming companionship during the ride. At the airport, they help with check-in and assist with luggage to the security checkpoint entrance - making her business travel experience smooth and stress-free.
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>Daily Errand Companionship</h3>
+                    <p>Handle various daily tasks and errands with friendly companionship. Save time while enjoying conversation and reliable transportation support.</p>
+                    <div class="service-features">
+                        <span class="feature-tag">Task Assistance</span>
+                        <span class="feature-tag">Time Saving</span>
+                        <span class="feature-tag">Friendly Company</span>
+                    </div>
+                    <div class="real-example">
+                        <strong>Real Scenario:</strong> David, 65, needs to run multiple errands: pick up dry cleaning, drop off library books, visit the post office, and grab lunch. His AssisMonter driver helps him plan the most efficient route, carries packages, and even suggests a great local restaurant for lunch. What would take him all day alone becomes an enjoyable, efficient outing with companionship.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <div class="dual-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="customer">For Customers</button>
+                    <button class="tab-btn" data-tab="driver">For Drivers</button>
+                </div>
+                
+                <!-- Customer Tab -->
+                <div class="tab-content active" id="customer-tab">
+                    <div class="steps-grid">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <h3>Request Companionship</h3>
+                            <p>Open the app and describe what you need help with. Set your location, preferred time, and any specific assistance requirements.</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <h3>Get Matched</h3>
+                            <p>We'll connect you with a verified, professional driver who can provide the companionship and assistance you need.</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <h3>Enjoy Your Journey</h3>
+                            <p>Your driver provides companionship and assistance throughout your journey. You're free to sit wherever you're comfortable - front or back!</p>
+                        </div>
+                    </div>
+                    <div class="customer-benefits">
+                        <h3>Your Freedom & Independence</h3>
+                        <ul>
+                            <li><i class="fas fa-check"></i> <strong>Choose Your Seat:</strong> Front seat is acceptable and recommended for companionship</li>
+                            <li><i class="fas fa-check"></i> <strong>Refund Policy:</strong> If you're not satisfied, claim refund for legitimate issues</li>
+                            <li><i class="fas fa-check"></i> <strong>Tip Your Driver:</strong> Show appreciation for exceptional service</li>
+                            <li><i class="fas fa-check"></i> <strong>Your Companion:</strong> Our drivers are your friends, not just drivers</li>
+                            <li><i class="fas fa-check"></i> <strong>Maintain Independence:</strong> You control your activities, we provide transportation and companionship</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Driver Tab -->
+                <div class="tab-content" id="driver-tab">
+                    <div class="steps-grid">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <h3>Apply & Verify</h3>
+                            <p>Complete your profile, provide valid driver license, 1-month driving abstract, and pass our verification process.</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <h3>Get Approved</h3>
+                            <p>We'll review your application, conduct background checks, and verify your vehicle meets our 2015+ requirement.</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <h3>Start Earning</h3>
+                            <p>Accept service requests, provide exceptional companionship, and keep 100% of your earnings.</p>
+                        </div>
+                    </div>
+                    <div class="driver-requirements">
+                        <h3>Driver Requirements</h3>
+                        <ul>
+                            <li><i class="fas fa-check"></i> <strong>Valid Driver License:</strong> Current, valid driver's license</li>
+                            <li><i class="fas fa-check"></i> <strong>Driving Abstract:</strong> 1-month driving record</li>
+                            <li><i class="fas fa-check"></i> <strong>Vehicle:</strong> 2015 or newer model</li>
+                            <li><i class="fas fa-check"></i> <strong>Insurance:</strong> Full coverage insurance</li>
+                            <li><i class="fas fa-check"></i> <strong>Service Quality:</strong> Must deliver exceptional service</li>
+                            <li><i class="fas fa-check"></i> <strong>Company Pride:</strong> Represent AssisMonter with pride</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Driver Benefits Section -->
+    <section id="drivers" class="driver-benefits">
+        <div class="container">
+            <div class="driver-content">
+                <div class="driver-text">
+                    <h2>Join Our Team of Professional Companions</h2>
+                    <p>Become more than a driver - become a trusted companion who helps people maintain independence and enjoy life. We provide the platform, training, and support you need to succeed.</p>
+                    
+                    <div class="benefits-list">
+                        <div class="benefit-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Flexible Hours</h4>
+                                <p>Work when you want, as much or as little as you prefer. Perfect for those seeking work-life balance.</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-dollar-sign"></i>
+                            <div>
+                                <h4>100% Driver Earnings</h4>
+                                <p>Keep 100% of your earnings. No hidden fees or commissions taken from your hard work.</p>
+                                <small class="disclaimer">*This may change in the future</small>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>Professional Growth</h4>
+                                <p>Build your companionship business and develop valuable skills in customer service and assistance.</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <div>
+                                <h4>Safe Platform</h4>
+                                <p>Verified customers, secure payments, 24/7 support, and full insurance coverage for your peace of mind.</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div>
+                                <h4>Meaningful Work</h4>
+                                <p>Make a real difference in people's lives by helping them maintain independence and social connections.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="#contact" class="btn btn-primary">Apply to Become a Driver</a>
+                </div>
+                <div class="driver-image">
+                    <div class="driver-placeholder">
+                        <i class="fas fa-user-tie"></i>
+                        <p>Professional Companion</p>
+                        <small>100% Earnings</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="trust">
+        <div class="container">
+            <h2 class="section-title">Why Choose AssisMonter</h2>
+            <div class="trust-grid">
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <i class="fas fa-user-check"></i>
+                    </div>
+                    <h3>Verified Companions</h3>
+                    <p>All our drivers undergo thorough background checks, license verification, and driving record review.</p>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Secure & Safe</h3>
+                    <p>Full insurance coverage, 24/7 monitoring, and secure payment processing for your safety and peace of mind.</p>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Exceptional Service</h3>
+                    <p>Our drivers are committed to providing exceptional companionship and assistance that exceeds expectations.</p>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Round-the-clock customer support for both customers and drivers, ensuring help is always available.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Access Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="download-content">
+                <h2>Access AssisMonter on Any Platform</h2>
+                <p>Experience our ride assist service wherever you are - web, mobile, or app stores.</p>
+                
+                <!-- Web App Section -->
+                <div class="app-platform web-app">
+                    <div class="platform-header">
+                        <i class="fas fa-globe"></i>
+                        <h3>Web App</h3>
+                        <span class="status available">Available Now</span>
+                    </div>
+                    <p>Access our services directly from your browser - no download required!</p>
+                    <div class="platform-features">
+                        <span><i class="fas fa-check"></i> Works on all devices</span>
+                        <span><i class="fas fa-check"></i> No app store needed</span>
+                        <span><i class="fas fa-check"></i> Instant access</span>
+                    </div>
+                    <a href="web-app/index.html" target="_blank" class="btn btn-primary">
+                        <i class="fas fa-external-link-alt"></i> Try Web App
+                    </a>
+                </div>
+
+                <!-- Mobile Apps Section -->
+                <div class="app-platforms-mobile">
+                    <h3>Mobile Apps</h3>
+                    <p>Download our native apps for the best mobile experience</p>
+                    
+                    <!-- Android App -->
+                    <div class="app-platform android-app">
+                        <div class="platform-header">
+                            <i class="fab fa-google-play"></i>
+                            <h4>Android App</h4>
+                            <span class="status coming-soon">Coming Soon</span>
+                        </div>
+                        <p>Download from Google Play Store</p>
+                        <div class="app-store-badge">
+                            <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" style="height: 60px;">
+                        </div>
+                        <p class="status-note">Currently in development - will be available after Google Play approval</p>
+                    </div>
+
+                    <!-- iOS App -->
+                    <div class="app-platform ios-app">
+                        <div class="platform-header">
+                            <i class="fab fa-apple"></i>
+                            <h4>iOS App</h4>
+                            <span class="status coming-soon">Coming Soon</span>
+                        </div>
+                        <p>Download from App Store</p>
+                        <div class="app-store-badge">
+                            <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="Download on the App Store" style="height: 60px;">
+                        </div>
+                        <p class="status-note">Currently in development - will be available after App Store approval</p>
+                    </div>
+                </div>
+
+                <!-- Additional Actions -->
+                <div class="download-actions">
+                    <a href="#drivers" class="btn btn-secondary">Become a Driver</a>
+                    <a href="#contact" class="btn btn-outline">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 100% Satisfaction Policy Section -->
+    <section id="guarantee" class="guarantee">
+        <div class="container">
+            <h2 class="section-title">Customer Satisfaction Policy</h2>
+            <p class="section-subtitle">Your satisfaction is our top priority! Claim refunds within 24 hours.</p>
+            
+            <div class="guarantee-content">
+                <div class="guarantee-card">
+                    <div class="guarantee-icon">
+                        <i class="fas fa-shield-check"></i>
+                    </div>
+                    <h3>Full Refund Promise</h3>
+                    <p>If you're not completely satisfied with your ride assist service, claim your refund within 24 hours after the ride. We provide a 100% refund within 7 business days. You pay the driver directly, and if the service is unsatisfactory, we refund you - no questions asked.</p>
+                </div>
+                
+                <div class="guarantee-card">
+                    <div class="guarantee-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>24-Hour Claim Window</h3>
+                    <p>Claim your refund within 24 hours after your ride through our app or contact support. We process all refunds within 7 business days, ensuring you're never stuck with unsatisfactory service.</p>
+                </div>
+                
+                <div class="guarantee-card">
+                    <div class="guarantee-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Care Over Speed</h3>
+                    <p>We prioritize your comfort, safety, and satisfaction above everything else. Every ride is about building relationships and providing exceptional companionship, not just transportation.</p>
+                </div>
+            </div>
+            
+            <div class="guarantee-note">
+                <p><strong>Note:</strong> This policy covers service quality, driver behavior, and overall experience. We stand behind our commitment to exceptional ride assist services.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Security & Trust Section -->
+    <section id="security" class="security">
+        <div class="container">
+            <h2 class="section-title">Security & Trust</h2>
+            <p class="section-subtitle">Your safety and privacy are our top priorities</p>
+            
+            <div class="security-grid">
+                <div class="security-card">
+                    <div class="security-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>HTTPS Secure</h3>
+                    <p>All data is encrypted using industry-standard SSL/TLS encryption. Your information is protected during transmission.</p>
+                </div>
+                
+                <div class="security-card">
+                    <div class="security-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3>Privacy Protected</h3>
+                    <p>We never share your personal information with third parties. Your data stays private and secure.</p>
+                </div>
+                
+                <div class="security-card">
+                    <div class="security-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Verified Service</h3>
+                    <p>All our drivers are thoroughly vetted with background checks, insurance, and valid licenses.</p>
+                </div>
+                
+                <div class="security-card">
+                    <div class="security-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Secure Payments</h3>
+                    <p>All financial transactions are processed through secure, encrypted payment gateways.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-subtitle">Have questions? Need support? Want to become a driver? We're here to help.</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email Support</h4>
+                            <p>support@assismonter.com</p>
+                            <small>Response within 24 hours</small>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-info-circle"></i>
+                        <div>
+                            <h4>General Information</h4>
+                            <p>info@assismonter.com</p>
+                            <small>For general inquiries</small>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Nationwide - All 50 States</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <div>
+                            <h4>Service Note</h4>
+                            <p>We are NOT medical transportation or mobility assistance. Our drivers provide companionship and ride assistance for independent individuals who can move on their own.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">I'm interested in...</option>
+                                <option value="customer">Using your ride assist services</option>
+                                <option value="driver">Becoming a driver companion</option>
+                                <option value="support">Technical support or refund</option>
+                                <option value="business">Business partnership</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>AssisMonter</h3>
+                    <p>Professional ride assist service providing companionship and transportation for independent individuals who need reliable transportation and genuine companionship during their daily activities.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Shopping Companionship</a></li>
+                        <li><a href="#services">Appointment Companionship</a></li>
+                        <li><a href="#services">Airport Companionship</a></li>
+                        <li><a href="#services">Daily Errand Companionship</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#drivers">Become a Driver</a></li>
+                        <li><a href="#target-audience">Who We Help</a></li>
+                        <li><a href="#guarantee">Policy</a></li>
+                        <li><a href="#security">Security</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#download">Download App</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AssisMonter. All rights reserved. | <a href="#disclaimer">Service Disclaimers</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
