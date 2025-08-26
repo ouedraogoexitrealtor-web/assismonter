@@ -44,7 +44,11 @@
   <script>
     // Load Google Maps API with key from configuration
     function loadGoogleMaps() {
+<<<<<<< HEAD
       const apiKey = window.assismonterConfig.googleMapsApiKey;
+=======
+      const apiKey = window.AssisMonterConfig.googleMapsApiKey;
+>>>>>>> 9dc304a025d0bf816864f4336d0878bcad04fd79
       if (apiKey && apiKey !== 'YOUR_API_KEY_HERE') {
         const script = document.createElement('script');
         script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&libraries=places`;
