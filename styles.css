@@ -239,19 +239,19 @@ p {
 }
 
 .hero-story {
-    background: rgba(255, 255, 255, 0.15);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: var(--bg-white);
+    border: 1px solid var(--border-color);
     border-radius: 12px;
     padding: 1rem;
     margin: 0.5rem 0;
-    backdrop-filter: blur(10px);
+    box-shadow: var(--shadow);
 }
 
 .hero-story p {
     margin: 0;
     font-size: 1rem;
     line-height: 1.6;
-    color: rgba(255, 255, 255, 0.95);
+    color: var(--text-dark);
 }
 
 .hero-story i {
@@ -260,7 +260,7 @@ p {
 }
 
 .hero-story strong {
-    color: white;
+    color: var(--text-dark);
     font-weight: 600;
 }
 
@@ -978,19 +978,19 @@ section {
 
 /* Hero Mission */
 .hero-mission {
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: var(--bg-white);
+    border: 1px solid var(--border-color);
     border-radius: 12px;
     padding: 1rem;
     margin: 0.5rem 0;
-    backdrop-filter: blur(10px);
+    box-shadow: var(--shadow);
 }
 
 .hero-mission p {
     margin: 0;
     font-size: 1rem;
     line-height: 1.6;
-    color: rgba(255, 255, 255, 0.95);
+    color: var(--text-dark);
 }
 
 .hero-mission i {
@@ -999,7 +999,7 @@ section {
 }
 
 .hero-mission strong {
-    color: white;
+    color: var(--text-dark);
     font-weight: 600;
 }
 
