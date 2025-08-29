@@ -1526,4 +1526,39 @@ section {
     .target-audience {
         padding-top: 80px; /* Reduce top padding to eliminate gap */
     }
+    
+    /* Desktop Guarantee Banner Improvements */
+    .guarantee-banner {
+        padding: 1.5rem 0;
+    }
+    
+    .guarantee-content {
+        flex-direction: row;
+        text-align: left;
+        gap: 2rem;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .guarantee-text {
+        flex: 1;
+        text-align: left;
+    }
+    
+    .guarantee-text strong {
+        font-size: 1.2rem;
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+    
+    .guarantee-text span {
+        font-size: 1rem;
+        line-height: 1.5;
+        display: block;
+    }
+    
+    .guarantee-link {
+        align-self: center;
+        flex-shrink: 0;
+    }
 }
