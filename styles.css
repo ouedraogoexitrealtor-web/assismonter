@@ -162,12 +162,12 @@ p {
 
 /* Hero Section */
 .hero {
-    padding: 140px 0 80px;
+    padding: 120px 0 60px;
     background: linear-gradient(135deg, var(--bg-light) 0%, var(--bg-white) 100%);
 }
 
 .hero-container {
-    max-width: 900px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 0 20px;
     text-align: center;
@@ -175,10 +175,10 @@ p {
 
 .hero-title-main {
     display: block;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 700;
     color: var(--text-dark);
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .hero-title-sub {
@@ -189,33 +189,24 @@ p {
 }
 
 .hero-description {
-    font-size: 1.4rem;
+    font-size: 1.25rem;
     color: var(--text-light);
-    margin-bottom: 1.5rem;
-    line-height: 1.7;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 1rem;
 }
 
 .hero-buttons {
     display: flex;
-    gap: 1.5rem;
+    gap: 1rem;
     flex-wrap: wrap;
-    margin-bottom: 2rem;
-    justify-content: center;
+    margin-bottom: 1rem;
 }
 
 .hero-disclaimer {
     background-color: rgba(245, 158, 11, 0.1);
     border: 1px solid var(--accent-color);
     border-radius: 8px;
-    padding: 1.5rem;
+    padding: 1rem;
     color: var(--text-dark);
-    margin-bottom: 1.5rem;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .hero-disclaimer p {
@@ -874,7 +865,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .guarantee-content i {
@@ -889,7 +880,7 @@ section {
 .guarantee-text strong {
     display: block;
     font-size: 1.1rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
 }
 
 .guarantee-text span {
@@ -990,12 +981,9 @@ section {
     background: var(--bg-white);
     border: 1px solid var(--border-color);
     border-radius: 12px;
-    padding: 1.5rem;
-    margin: 1.5rem 0;
+    padding: 1rem;
+    margin: 0.5rem 0;
     box-shadow: var(--shadow);
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .hero-mission p {
@@ -1212,53 +1200,6 @@ section {
     color: white;
 }
 
-/* Desktop Enhancements */
-@media (min-width: 1024px) {
-    .hero {
-        padding: 160px 0 100px;
-    }
-    
-    .hero-container {
-        max-width: 1000px;
-    }
-    
-    .hero-title-main {
-        font-size: 4.5rem;
-        margin-bottom: 1.5rem;
-    }
-    
-    .hero-description {
-        font-size: 1.5rem;
-        margin-bottom: 2rem;
-        max-width: 900px;
-    }
-    
-    .hero-mission {
-        max-width: 800px;
-        padding: 2rem;
-        margin: 2rem auto;
-    }
-    
-    .hero-buttons {
-        gap: 2rem;
-        margin-bottom: 2.5rem;
-    }
-    
-    .hero-disclaimer {
-        max-width: 700px;
-        padding: 2rem;
-        margin-bottom: 2rem;
-    }
-    
-    .guarantee-banner {
-        padding: 1.5rem 0;
-    }
-    
-    .guarantee-content {
-        gap: 3rem;
-    }
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav-menu {
@@ -1414,5 +1355,13 @@ section {
     .customer-benefits,
     .driver-requirements {
         padding: 1.5rem;
+    }
+}
+
+/* Desktop Title - One Line */
+@media (min-width: 1024px) {
+    .hero-title-main {
+        line-height: 1.1; /* Keep title on one line */
+        white-space: nowrap; /* Prevent title from wrapping */
     }
 }
