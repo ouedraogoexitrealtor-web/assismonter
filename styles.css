@@ -1371,26 +1371,27 @@ section {
     }
     
     .hero-container {
-        max-width: 1200px; /* Increase max-width to prevent overlap */
+        max-width: 1400px; /* Increase max-width further to prevent overlap */
         text-align: left;
     }
     
     .hero-content {
         display: flex;
         flex-direction: row; /* Change to row for two-column layout */
-        gap: 3rem; /* Reduce gap to prevent overlap */
+        gap: 4rem; /* Increase gap to prevent overlap */
         align-items: flex-start;
         justify-content: space-between;
     }
     
     .hero-text {
         flex: 1;
-        max-width: 650px; /* Increase max-width for better text display */
+        max-width: 700px; /* Increase max-width for better text display */
+        margin-right: 2rem; /* Add right margin for extra spacing */
     }
     
     .hero-actions {
         flex-shrink: 0;
-        width: 400px; /* Increase width to prevent overlap */
+        width: 450px; /* Increase width to prevent overlap */
         display: flex;
         flex-direction: column;
         gap: 2rem;
@@ -1398,7 +1399,7 @@ section {
     }
     
     .hero-title-main {
-        font-size: 3.5rem; /* Slightly reduce font size to prevent overlap */
+        font-size: 3.2rem; /* Further reduce font size to prevent overlap */
         margin-bottom: 1.5rem;
         color: var(--text-dark);
         font-weight: 700;
@@ -1407,7 +1408,7 @@ section {
     }
     
     .hero-description {
-        font-size: 1.3rem; /* Slightly reduce font size */
+        font-size: 1.25rem; /* Slightly reduce font size */
         line-height: 1.6;
         margin-bottom: 2rem;
         color: var(--text-light);
