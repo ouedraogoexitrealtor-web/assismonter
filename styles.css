@@ -1371,26 +1371,26 @@ section {
     }
     
     .hero-container {
-        max-width: 1000px;
+        max-width: 1200px; /* Increase max-width to prevent overlap */
         text-align: left;
     }
     
     .hero-content {
         display: flex;
         flex-direction: row; /* Change to row for two-column layout */
-        gap: 4rem;
+        gap: 3rem; /* Reduce gap to prevent overlap */
         align-items: flex-start;
         justify-content: space-between;
     }
     
     .hero-text {
         flex: 1;
-        max-width: 600px;
+        max-width: 650px; /* Increase max-width for better text display */
     }
     
     .hero-actions {
         flex-shrink: 0;
-        width: 350px;
+        width: 400px; /* Increase width to prevent overlap */
         display: flex;
         flex-direction: column;
         gap: 2rem;
@@ -1398,7 +1398,7 @@ section {
     }
     
     .hero-title-main {
-        font-size: 4rem;
+        font-size: 3.5rem; /* Slightly reduce font size to prevent overlap */
         margin-bottom: 1.5rem;
         color: var(--text-dark);
         font-weight: 700;
@@ -1407,7 +1407,7 @@ section {
     }
     
     .hero-description {
-        font-size: 1.4rem;
+        font-size: 1.3rem; /* Slightly reduce font size */
         line-height: 1.6;
         margin-bottom: 2rem;
         color: var(--text-light);
@@ -1538,11 +1538,13 @@ section {
         gap: 2rem;
         align-items: center;
         justify-content: space-between;
+        width: 100%; /* Ensure full width usage */
     }
     
     .guarantee-text {
         flex: 1;
         text-align: left;
+        max-width: none; /* Remove max-width restriction */
     }
     
     .guarantee-text strong {
@@ -1555,10 +1557,12 @@ section {
         font-size: 1rem;
         line-height: 1.5;
         display: block;
+        max-width: none; /* Remove max-width restriction */
     }
     
     .guarantee-link {
         align-self: center;
         flex-shrink: 0;
+        margin-left: 2rem; /* Add some space from the text */
     }
 }
