@@ -1567,3 +1567,34 @@ section {
         margin-left: 2rem; /* Add some space from the text */
     }
 }
+
+/* Desktop Single Column Layout for Who We Help and Services */
+.audience-grid {
+    grid-template-columns: repeat(4, 1fr); /* 4 columns side by side on desktop */
+    max-width: 1600px; /* Set reasonable max-width for centering */
+    width: 100%; /* Ensure full width */
+    margin: 3rem auto 0; /* Center horizontally with auto margins */
+    gap: 3.5rem; /* Increase gap for much more space between cards */
+    padding: 0 2rem; /* Add padding for proper spacing from edges */
+    justify-content: center; /* Center the grid content */
+    display: grid; /* Ensure grid display */
+}
+
+.services-grid {
+    grid-template-columns: repeat(4, 1fr); /* 4 columns side by side on desktop */
+    max-width: 1600px; /* Set reasonable max-width for centering */
+    width: 100%; /* Ensure full width */
+    margin: 3rem auto 0; /* Center horizontally with auto margins */
+    gap: 3.5rem; /* Increase gap for much more space between cards */
+    padding: 0 2rem; /* Add padding for proper spacing from edges */
+    justify-content: center; /* Center the grid content */
+    display: grid; /* Ensure grid display */
+}
+
+/* Desktop card styling improvements */
+.audience-card,
+.service-card {
+    text-align: center; /* Keep center alignment for side-by-side layout */
+    padding: 2.5rem; /* Increase padding for even better content spacing */
+    min-width: 350px; /* Increase minimum width for better readability */
+}
