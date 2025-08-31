@@ -1289,11 +1289,13 @@ section {
     }
 
     .audience-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
+        gap: 1.5rem;
     }
 
     .services-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
+        gap: 1.5rem;
     }
     
     /* Guarantee Banner Mobile */
@@ -1352,6 +1354,14 @@ section {
     .audience-card,
     .service-card {
         padding: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    /* Ensure single column layout on mobile */
+    .audience-grid,
+    .services-grid {
+        grid-template-columns: 1fr !important;
+        gap: 1.5rem;
     }
 
     .customer-benefits,
