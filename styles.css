@@ -1289,13 +1289,19 @@ section {
     }
 
     .audience-grid {
+        display: grid !important;
         grid-template-columns: 1fr !important;
-        gap: 1.5rem;
+        grid-template-rows: auto !important;
+        gap: 1.5rem !important;
+        width: 100% !important;
     }
 
     .services-grid {
+        display: grid !important;
         grid-template-columns: 1fr !important;
-        gap: 1.5rem;
+        grid-template-rows: auto !important;
+        gap: 1.5rem !important;
+        width: 100% !important;
     }
     
     /* Guarantee Banner Mobile */
@@ -1360,8 +1366,11 @@ section {
     /* Ensure single column layout on mobile */
     .audience-grid,
     .services-grid {
+        display: grid !important;
         grid-template-columns: 1fr !important;
-        gap: 1.5rem;
+        grid-template-rows: auto !important;
+        gap: 1.5rem !important;
+        width: 100% !important;
     }
 
     .customer-benefits,
