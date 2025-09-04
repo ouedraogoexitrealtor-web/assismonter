@@ -1,16 +1,11 @@
 {
-<<<<<<< HEAD
-    "name": "assismonter - Comprehensive Assistance Services",
-    "short_name": "assismonter",
-=======
-    "name": "AssisMonter - Comprehensive Assistance Services",
+    "name": "AssisMonter - Premium Transportation & Assistance Services",
     "short_name": "AssisMonter",
->>>>>>> 9dc304a025d0bf816864f4336d0878bcad04fd79
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#4F46E5",
-    "theme_color": "#4F46E5",
-    "description": "Comprehensive assistance services including shopping, appointments, airport transportation, and errands with customer and driver roles.",
+    "background_color": "#2563eb",
+    "theme_color": "#2563eb",
+    "description": "Premium transportation and assistance services with customer and driver roles.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

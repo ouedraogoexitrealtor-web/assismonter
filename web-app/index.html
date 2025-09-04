@@ -14,11 +14,11 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-  <base href="/web-app/">
+  <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-      <meta name="description" content="AssisMonter - Comprehensive assistance services including shopping, appointments, airport transportation, and errands with customer and driver roles.">
+      <meta name="description" content="AssisMonter - Premium transportation and assistance services with customer and driver roles.">
 
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
@@ -32,42 +32,24 @@
   <link rel="apple-touch-icon" sizes="167x167" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="icon" type="image/png" href="icons/Icon-192.png"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/Icon-192.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/Icon-192.png"/>
+  <link rel="icon" type="image/png" sizes="48x48" href="icons/Icon-192.png"/>
+  <link rel="icon" type="image/png" sizes="64x64" href="icons/Icon-192.png"/>
+  <link rel="icon" type="image/png" sizes="128x128" href="icons/Icon-192.png"/>
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/Icon-192.png"/>
+  <link rel="icon" type="image/png" sizes="512x512" href="icons/Icon-512.png"/>
+  
+  <!-- Additional favicon formats for better browser support -->
+  <link rel="shortcut icon" href="icons/Icon-192.png"/>
+  <link rel="icon" href="icons/Icon-192.png"/>
 
       <title>AssisMonter</title>
   <link rel="manifest" href="manifest.json">
   
-  <!-- Configuration -->
-  <script src="config.js"></script>
-  
-  <!-- Google Maps API - Loaded dynamically -->
-  <script>
-    // Load Google Maps API with key from configuration
-    function loadGoogleMaps() {
-<<<<<<< HEAD
-      const apiKey = window.assismonterConfig.googleMapsApiKey;
-=======
-      const apiKey = window.AssisMonterConfig.googleMapsApiKey;
->>>>>>> 9dc304a025d0bf816864f4336d0878bcad04fd79
-      if (apiKey && apiKey !== 'YOUR_API_KEY_HERE') {
-        const script = document.createElement('script');
-        script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&libraries=places`;
-        script.async = true;
-        script.defer = true;
-        document.head.appendChild(script);
-        console.log('🗺️ Google Maps API loaded with configured key');
-      } else {
-        console.warn('⚠️ Google Maps API key not configured. Maps functionality will be limited.');
-      }
-    }
-    
-    // Load maps when configuration is ready
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', loadGoogleMaps);
-    } else {
-      loadGoogleMaps();
-    }
-  </script>
+  <!-- Google Maps API -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFjeiEHQ9DUinkGOH1LFtWLXFL5Oshgb4&libraries=places"></script>
   
   <!-- iOS Safari specific styles -->
   <style>
